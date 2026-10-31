@@ -1,0 +1,16 @@
+:root{
+    /*Colores y variables fijas en la pagina*/
+    /*Tipografia*/
+    --fuente-base: "Inter", Arial, sans-serif;
+    --fuente-manuscrita: "Caveat", cursive;
+
+    /*Colores*/
+     --fondo: #0A1120;
+    --superficie: #101A2E;
+    --borde: #1E2A44;
+    --texto: #E6EDF7;
+    --texto-suave: #9AA7BD;
+    --acento: #4C8DFF;
+    --acento-boton: #2563EB;
+    --blanco: #FFFFFF;
+}
