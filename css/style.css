@@ -327,19 +327,13 @@ ul {
   flex-wrap: wrap;
   gap: 12px;
   margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .botonc {
     border: 2px solid var(--color-principal);
     background-color: var(--color-principal);
-   
-
 }
-
-.contacto a {
-  color: var(--color-texto);
-}
-
 .contacto a:hover {
   text-decoration: underline;
 }
@@ -395,8 +389,5 @@ ul {
     align-items: center;
   }
 
-  .contacto {
-    flex-direction: row;
-    gap: 32px;
-  }
+ 
 }
