@@ -388,6 +388,8 @@ ul {
     grid-template-columns: 1fr 1fr;
     align-items: center;
   }
-
+.contacto{
+   margin-bottom: 2rem;
+}
  
 }
