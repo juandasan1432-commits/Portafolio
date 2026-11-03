@@ -1,85 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juan David Henao | Desarrollador de Software</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="encabezado">
-        <a href="#inicio">&lt;/&gt;</a>
-        <span class="logo-inicioj">
-            Juan David
-        </span>
 
+  <header class="encabezado">
+    <div class="contenedor encabezado-contenido">
+      <a href="#inicio" class="logo"><span class="logo-simbolo">&lt;/&gt;</span> Juan David |<span class="logo-acento"> Web Developer</span></a>
+      <nav>
+        <ul class="menu">
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#estudios">Estudios</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#proyecto">Proyecto</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-        <nav aria-label="Menu para navegar">
-            <ul class="menu">
-                <li><a href="#inicio"> Inicio</a></li>
-                <li><a href="#sobre-mi">Sobre mi</a></li>
-                <li><a href="#mi-aprendizaje">Mis aprendizajes</a></li>
-                <li> <a href="#mis-habilidades">Mis habilidades</a></li>
-                <li> <a href="">contacto</a></li>
+  <main>
+    <section id="inicio" class="inicio">
+      <div class="contenedor inicio-contenido">
+        <div class="inicio-texto">
+          <p class="saludo">Hola, soy</p>
+          <h1 class="titulo-principal">Juan David <span class="apellido">Henao Jaramillo</span></h1>
+          <p class="subtitulo">Desarrollador de Software en formación</p>
+          <p class="inicio-descripcion">Me apasiona construir soluciones que realmente hagan la diferencia. Sigo aprendiendo cada día.</p>
+          <div class="botones">
+            <a href="https://wa.me/573174926526" target="_blank" class="boton boton-principal">Contáctame</a>
+          </div>
+        </div>
+        <img class="foto" src="assets/img/imagen_portafolio.png" alt="Juan David trabajando en su computador">
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="seccion seccion-sobremi">
+      <div class="contenedor">
+        <p class="etiqueta">Sobre mí</p>
+        <h2 class="titulo-divisiones">Un poco sobre mí</h2>
+        <p class="descripcion">Soy una persona alegre y sociable, con muchas ganas de aprender. Me gusta el fútbol, la programación y el ejercicio.</p>
+        <ul class="cualidades">
+          <li class="cualidad">
+            <h3>Responsable</h3>
+            <p>Me gusta tomar en serio lo que hago y dar lo mejor de mí. Cuando asumo un compromiso, procuro cumplirlo con dedicación, aprender de mis errores y mejorar constantemente.</p>
+          </li>
+          <li class="cualidad">
+            <h3>Solidario</h3>
+            <p>Me nace ayudar a las personas cuando puedo, compartir lo que sé y estar presente cuando alguien me necesita. Creo que todos podemos aportar algo y que juntos siempre podemos llegar más lejos.</p>
+          </li>
+          <li class="cualidad">
+            <h3>Con ganas de crecer</h3>
+            <p>Tengo muchas ganas de llegar lejos y sé que para lograrlo debo esforzarme y salir de mi zona de confort. Me gusta aprender cosas nuevas, ponerme retos y demostrarme que soy capaz de alcanzar lo que me propongo.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="estudios" class="sobremi">
+      <div class="contenedor">
+        <p class="etiqueta">Estudios</p>
+        <h2 class="titulo-divisiones">Mi formación</h2>
+        <ul class="estudios">
+          <li class="estudio">
+            <span class="estado estado-en-curso">En curso</span>
+            <h3>Desarrollador de Software</h3>
+            <p class="estudio-lugar">RIWI</p>
+            <p class="estudio-fecha">2026 - Actualidad</p>
+          </li>
+          <li class="estudio">
+            <span class="estado estado-terminado">Terminado</span>
+            <h3>Formacion Ingles A1 - B1</h3>
+            <p class="estudio-lugar">Blendex</p>
+            <p class="estudio-fecha">2025 - 2026</p>
+          </li>
+          <li class="estudio">
+            <span class="estado estado-terminado">Terminado</span>
+            <h3>Media Tecnica Desarrollo de Software</h3>
+            <p class="estudio-lugar">Sena</p>
+            <p class="estudio-fecha">2023 - 2024</p>
+          </li>
+           <li class="estudio">
+            <span class="estado estado-terminado">Terminado</span>
+            <h3>Media Tecnica Desarrollo de Software</h3>
+            <p class="estudio-lugar">Sena</p>
+            <p class="estudio-fecha">2023 - 2024</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="habilidades" class="seccion seccion-alterna">
+      <div class="contenedor">
+        <p class="etiqueta">Habilidades</p>
+        <h2 class="titulo-divisiones">Tecnologías que uso</h2>
+        <ul class="habilidades">
+          <li class="habilidad">HTML</li>
+          <li class="habilidad">CSS</li>
+          <li class="habilidad">GitHub</li>
+          <li class="habilidad">VS Code</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="proyecto" class="seccion">
+      <div class="contenedor">
+        <p class="etiqueta">Proyecto destacado</p>
+        <h2 class="titulo-divisiones">Rueda Libre</h2>
+        <article class="proyecto">
+          <img class="proyecto-imagen" src="assets/img/Rueda libre.png" alt="Captura de la página Rueda Libre">
+          <div class="proyecto-info">
+            <p>Página web de alquiler de bicicletas en Medellín. Navegación entre páginas, diseño responsivo y estructura semántica.</p>
+            <ul class="tecnologias">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Flexbox y Grid</li>
             </ul>
-        </nav>
-    </header>
+            <div class="botones">
+              <a href="https://juandasan1432-commits.github.io/Rueda-libre/" class="boton boton-principal" target="_blank" rel="noopener">Ver proyecto </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
 
-    <main>
-<!--Introduccion-->
-        <section id="inicio">
-            <article class="Introduccion-pagina ">
-                <h2>Juan David Henao Jaramillo</h2>
-                <h3></h3>
-
+    <section id="contacto" class="seccion seccion-alterna">
+      <div class="contenedor">
+        <p class="etiqueta">Contacto</p>
+        <h2 class="titulo-divisiones">Hablemos</h2>
+        <p class="descripcion">Si tienes alguna oportunidad o proyecto, escríbeme.</p>
+        <ul class="contacto">
+         <span class="boton botonc"> <li><a href="mailto:juan.henao@example.com" target="_blank">Correo Electrónico</a></li> </span>
+         <span class="boton botonc"> <li><a href="https://github.com/juanhenao" target="_blank">GitHub</a></li> </span>
             
-            </article>
+        </ul>
+      </div>
+    </section>
+  </main>
 
-        </section>
+  <footer class="pie">
+    <div class="contenedor">
+      <p>&copy; 2026 Juan David Henao Jaramillo</p>
+    </div>
+  </footer>
 
-
-
-
-<!--Bloque 2-->
-<section id="sobre-mi">
-
-</section>
-
-
-
-
-
-<!--Bloque 3-->
-<section id="mis-aprendizajes">
-
-</section>
-
-
-<!--Bloque 4-->
-<section id="mis-habilidades">
-
-</section>
-
-
-
-<!--Bloque 5-->
-<section id="contacto">
-
-</section>
-
-
-<!--Bloque 6-->
-<section>
-
-</section>
-
-</main>
-
-<footer>
-
-</footer>
-    
 </body>
 </html>
